@@ -1,0 +1,14 @@
+[
+    {
+        "phrase": "hello",
+        "response": "Hows it going"
+    },
+    {
+        "phrase": "hey kift",
+        "response": "Hello"
+    },
+    {
+        "phrase": "whats the weather",
+        "response": "Cloudy with a chance of meatballs"
+    }
+]
