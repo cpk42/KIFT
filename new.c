@@ -35,9 +35,10 @@ void		find_utter(ps_decoder_t *ps, FILE *fh)
 	char const	*hyp;
 
 	rv = ps_start_utt(ps);
-	while (!feof(fh)) {
-	  nsamp = fread(buf, 2, 512, fh);
-	  rv = ps_process_raw(ps, buf, nsamp, FALSE, FALSE);
+	while (!feof(fh))
+	{
+		nsamp = fread(buf, 2, 512, fh);
+		rv = ps_process_raw(ps, buf, nsamp, FALSE, FALSE);
 	}
 	rv = ps_end_utt(ps);
 	hyp = ps_get_hyp(ps, &score);
