@@ -4,15 +4,7 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
   /usr/include/AvailabilityInternal.h /usr/include/_types.h \
   /usr/include/sys/_types.h /usr/include/machine/_types.h \
   /usr/include/i386/_types.h /usr/include/sys/_pthread/_pthread_types.h \
-  /usr/include/sys/_types/_va_list.h /usr/include/machine/types.h \
-  /usr/include/i386/types.h /usr/include/sys/_types/_int8_t.h \
-  /usr/include/sys/_types/_int16_t.h /usr/include/sys/_types/_int32_t.h \
-  /usr/include/sys/_types/_int64_t.h /usr/include/sys/_types/_u_int8_t.h \
-  /usr/include/sys/_types/_u_int16_t.h \
-  /usr/include/sys/_types/_u_int32_t.h \
-  /usr/include/sys/_types/_u_int64_t.h \
-  /usr/include/sys/_types/_intptr_t.h \
-  /usr/include/sys/_types/_uintptr_t.h /usr/include/sys/_types/_size_t.h \
+  /usr/include/sys/_types/_va_list.h /usr/include/sys/_types/_size_t.h \
   /usr/include/sys/_types/_null.h /usr/include/sys/stdio.h \
   /usr/include/sys/_types/_off_t.h /usr/include/sys/_types/_ssize_t.h \
   /usr/include/secure/_stdio.h /usr/include/secure/_common.h \
@@ -21,33 +13,35 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
   /usr/include/sys/signal.h /usr/include/sys/appleapiopts.h \
   /usr/include/machine/signal.h /usr/include/i386/signal.h \
   /usr/include/machine/_mcontext.h /usr/include/i386/_mcontext.h \
-  /usr/include/mach/machine/_structs.h /usr/include/mach/i386/_structs.h \
+  /usr/include/mach/i386/_structs.h \
   /usr/include/sys/_pthread/_pthread_attr_t.h \
   /usr/include/sys/_types/_sigaltstack.h \
   /usr/include/sys/_types/_ucontext.h \
   /usr/include/sys/_types/_sigset_t.h /usr/include/sys/_types/_uid_t.h \
   /usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdint.h \
-  /usr/include/stdint.h /usr/include/_types/_uint8_t.h \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/stdint.h \
+  /usr/include/stdint.h /usr/include/sys/_types/_int8_t.h \
+  /usr/include/sys/_types/_int16_t.h /usr/include/sys/_types/_int32_t.h \
+  /usr/include/sys/_types/_int64_t.h /usr/include/_types/_uint8_t.h \
   /usr/include/_types/_uint16_t.h /usr/include/_types/_uint32_t.h \
-  /usr/include/_types/_uint64_t.h /usr/include/_types/_intmax_t.h \
+  /usr/include/_types/_uint64_t.h /usr/include/sys/_types/_intptr_t.h \
+  /usr/include/sys/_types/_uintptr_t.h /usr/include/_types/_intmax_t.h \
   /usr/include/_types/_uintmax_t.h /usr/include/sys/_types/_timeval.h \
   /usr/include/machine/endian.h /usr/include/i386/endian.h \
   /usr/include/sys/_endian.h /usr/include/libkern/_OSByteOrder.h \
   /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
   /usr/include/sys/_types/_ct_rune_t.h /usr/include/sys/_types/_rune_t.h \
-  /usr/include/sys/_types/_wchar_t.h /usr/include/sys/_types/_dev_t.h \
+  /usr/include/sys/_types/_wchar_t.h /usr/include/machine/types.h \
+  /usr/include/i386/types.h /usr/include/sys/_types/_dev_t.h \
   /usr/include/sys/_types/_mode_t.h /usr/include/string.h \
   /usr/include/sys/_types/_rsize_t.h /usr/include/sys/_types/_errno_t.h \
-  /usr/include/strings.h /usr/include/secure/_strings.h \
-  /usr/include/secure/_string.h /usr/include/assert.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/limits.h \
+  /usr/include/strings.h /usr/include/secure/_string.h \
+  /usr/include/assert.h \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/limits.h \
   /usr/include/limits.h /usr/include/machine/limits.h \
   /usr/include/i386/limits.h /usr/include/i386/_limits.h \
   /usr/include/sys/syslimits.h /usr/include/math.h \
-  /usr/include/sys/types.h /usr/include/sys/_types/_u_char.h \
-  /usr/include/sys/_types/_u_short.h /usr/include/sys/_types/_u_int.h \
-  /usr/include/sys/_types/_caddr_t.h /usr/include/sys/_types/_blkcnt_t.h \
+  /usr/include/sys/types.h /usr/include/sys/_types/_blkcnt_t.h \
   /usr/include/sys/_types/_blksize_t.h /usr/include/sys/_types/_gid_t.h \
   /usr/include/sys/_types/_in_addr_t.h \
   /usr/include/sys/_types/_in_port_t.h /usr/include/sys/_types/_ino_t.h \
@@ -72,6 +66,7 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
   /usr/include/sys/_pthread/_pthread_key_t.h \
   /usr/include/sys/_types/_fsblkcnt_t.h \
   /usr/include/sys/_types/_fsfilcnt_t.h \
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinx_config.h \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdarg.h \
@@ -105,9 +100,44 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
   ../../include/pocketsphinx.h ../../include/cmdln_macro.h \
   ../../include/ps_lattice.h ../../include/ps_search.h \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/fsg_model.h \
+=======
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinx_config.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/stdarg.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/fixpoint.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/ckd_alloc.h \
+  /usr/include/setjmp.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/bio.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/byteorder.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h tied_mgau_common.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/logmath.h \
+  ptm_mgau.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/fe.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/mmio.h \
+  acmod.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/feat.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmn.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/agc.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/bitvec.h \
+  ../../include/ps_mllr.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/ngram_model.h \
+  ../../include/pocketsphinx_export.h bin_mdef.h mdef.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/hash_table.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/glist.h \
+  tmat.h hmm.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/listelem_alloc.h \
+  ms_gauden.h vector.h pocketsphinx_internal.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/profile.h \
+  ../../include/pocketsphinx.h ../../include/cmdln_macro.h \
+  ../../include/ps_lattice.h ../../include/ps_search.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/fsg_model.h \
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
   dict.h s3types.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/float.h \
-  /usr/include/float.h dict2pid.h
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/float.h \
+  dict2pid.h
 
 /usr/include/stdio.h:
 
@@ -132,30 +162,6 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
 /usr/include/sys/_pthread/_pthread_types.h:
 
 /usr/include/sys/_types/_va_list.h:
-
-/usr/include/machine/types.h:
-
-/usr/include/i386/types.h:
-
-/usr/include/sys/_types/_int8_t.h:
-
-/usr/include/sys/_types/_int16_t.h:
-
-/usr/include/sys/_types/_int32_t.h:
-
-/usr/include/sys/_types/_int64_t.h:
-
-/usr/include/sys/_types/_u_int8_t.h:
-
-/usr/include/sys/_types/_u_int16_t.h:
-
-/usr/include/sys/_types/_u_int32_t.h:
-
-/usr/include/sys/_types/_u_int64_t.h:
-
-/usr/include/sys/_types/_intptr_t.h:
-
-/usr/include/sys/_types/_uintptr_t.h:
 
 /usr/include/sys/_types/_size_t.h:
 
@@ -191,8 +197,6 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
 
 /usr/include/i386/_mcontext.h:
 
-/usr/include/mach/machine/_structs.h:
-
 /usr/include/mach/i386/_structs.h:
 
 /usr/include/sys/_pthread/_pthread_attr_t.h:
@@ -207,9 +211,17 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
 
 /usr/include/sys/resource.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdint.h:
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/stdint.h:
 
 /usr/include/stdint.h:
+
+/usr/include/sys/_types/_int8_t.h:
+
+/usr/include/sys/_types/_int16_t.h:
+
+/usr/include/sys/_types/_int32_t.h:
+
+/usr/include/sys/_types/_int64_t.h:
 
 /usr/include/_types/_uint8_t.h:
 
@@ -218,6 +230,10 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
 /usr/include/_types/_uint32_t.h:
 
 /usr/include/_types/_uint64_t.h:
+
+/usr/include/sys/_types/_intptr_t.h:
+
+/usr/include/sys/_types/_uintptr_t.h:
 
 /usr/include/_types/_intmax_t.h:
 
@@ -243,6 +259,10 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
 
 /usr/include/sys/_types/_wchar_t.h:
 
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
 /usr/include/sys/_types/_dev_t.h:
 
 /usr/include/sys/_types/_mode_t.h:
@@ -255,13 +275,11 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
 
 /usr/include/strings.h:
 
-/usr/include/secure/_strings.h:
-
 /usr/include/secure/_string.h:
 
 /usr/include/assert.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/limits.h:
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/limits.h:
 
 /usr/include/limits.h:
 
@@ -276,14 +294,6 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
 /usr/include/math.h:
 
 /usr/include/sys/types.h:
-
-/usr/include/sys/_types/_u_char.h:
-
-/usr/include/sys/_types/_u_short.h:
-
-/usr/include/sys/_types/_u_int.h:
-
-/usr/include/sys/_types/_caddr_t.h:
 
 /usr/include/sys/_types/_blkcnt_t.h:
 
@@ -347,12 +357,19 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
 
 /usr/include/sys/_types/_fsfilcnt_t.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinx_config.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinx_config.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdarg.h:
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/stdarg.h:
+
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h:
@@ -368,6 +385,23 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/byteorder.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/err.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/fixpoint.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/ckd_alloc.h:
+
+/usr/include/setjmp.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/bio.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/byteorder.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/err.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 
 /usr/include/errno.h:
 
@@ -375,6 +409,7 @@ ptm_mgau.lo: ptm_mgau.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
 
 tied_mgau_common.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/logmath.h:
 
 ptm_mgau.h:
@@ -396,6 +431,29 @@ acmod.h:
 ../../include/ps_mllr.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/ngram_model.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/logmath.h:
+
+ptm_mgau.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/fe.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/mmio.h:
+
+acmod.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/feat.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmn.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/agc.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/bitvec.h:
+
+../../include/ps_mllr.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/ngram_model.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 
 ../../include/pocketsphinx_export.h:
 
@@ -403,15 +461,25 @@ bin_mdef.h:
 
 mdef.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/hash_table.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/glist.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/hash_table.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/glist.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 
 tmat.h:
 
 hmm.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/listelem_alloc.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/listelem_alloc.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 
 ms_gauden.h:
 
@@ -419,7 +487,11 @@ vector.h:
 
 pocketsphinx_internal.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/profile.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/profile.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 
 ../../include/pocketsphinx.h:
 
@@ -429,14 +501,16 @@ pocketsphinx_internal.h:
 
 ../../include/ps_search.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/fsg_model.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/fsg_model.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ptm_mgau.Plo
 
 dict.h:
 
 s3types.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/float.h:
-
-/usr/include/float.h:
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/float.h:
 
 dict2pid.h:

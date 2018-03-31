@@ -1,5 +1,9 @@
 ps_alignment.lo: ps_alignment.c \
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/ckd_alloc.h \
+=======
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/ckd_alloc.h \
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
   /usr/include/stdlib.h /usr/include/Availability.h \
   /usr/include/AvailabilityInternal.h /usr/include/_types.h \
   /usr/include/sys/_types.h /usr/include/sys/cdefs.h \
@@ -10,40 +14,42 @@ ps_alignment.lo: ps_alignment.c \
   /usr/include/sys/_types/_id_t.h /usr/include/sys/signal.h \
   /usr/include/sys/appleapiopts.h /usr/include/machine/signal.h \
   /usr/include/i386/signal.h /usr/include/machine/_mcontext.h \
-  /usr/include/i386/_mcontext.h /usr/include/mach/machine/_structs.h \
-  /usr/include/mach/i386/_structs.h /usr/include/machine/types.h \
-  /usr/include/i386/types.h /usr/include/sys/_types/_int8_t.h \
-  /usr/include/sys/_types/_int16_t.h /usr/include/sys/_types/_int32_t.h \
-  /usr/include/sys/_types/_int64_t.h /usr/include/sys/_types/_u_int8_t.h \
-  /usr/include/sys/_types/_u_int16_t.h \
-  /usr/include/sys/_types/_u_int32_t.h \
-  /usr/include/sys/_types/_u_int64_t.h \
-  /usr/include/sys/_types/_intptr_t.h \
-  /usr/include/sys/_types/_uintptr_t.h \
+  /usr/include/i386/_mcontext.h /usr/include/mach/i386/_structs.h \
   /usr/include/sys/_pthread/_pthread_attr_t.h \
   /usr/include/sys/_types/_sigaltstack.h \
   /usr/include/sys/_types/_ucontext.h \
   /usr/include/sys/_types/_sigset_t.h /usr/include/sys/_types/_size_t.h \
   /usr/include/sys/_types/_uid_t.h /usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdint.h \
-  /usr/include/stdint.h /usr/include/_types/_uint8_t.h \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/stdint.h \
+  /usr/include/stdint.h /usr/include/sys/_types/_int8_t.h \
+  /usr/include/sys/_types/_int16_t.h /usr/include/sys/_types/_int32_t.h \
+  /usr/include/sys/_types/_int64_t.h /usr/include/_types/_uint8_t.h \
   /usr/include/_types/_uint16_t.h /usr/include/_types/_uint32_t.h \
-  /usr/include/_types/_uint64_t.h /usr/include/_types/_intmax_t.h \
+  /usr/include/_types/_uint64_t.h /usr/include/sys/_types/_intptr_t.h \
+  /usr/include/sys/_types/_uintptr_t.h /usr/include/_types/_intmax_t.h \
   /usr/include/_types/_uintmax_t.h /usr/include/sys/_types/_timeval.h \
   /usr/include/machine/endian.h /usr/include/i386/endian.h \
   /usr/include/sys/_endian.h /usr/include/libkern/_OSByteOrder.h \
   /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
   /usr/include/sys/_types/_ct_rune_t.h /usr/include/sys/_types/_rune_t.h \
   /usr/include/sys/_types/_wchar_t.h /usr/include/sys/_types/_null.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
   /usr/include/sys/_types/_dev_t.h /usr/include/sys/_types/_mode_t.h \
   /usr/include/setjmp.h \
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinx_config.h \
+=======
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinx_config.h \
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
   ps_alignment.h dict2pid.h /usr/include/stdio.h \
   /usr/include/sys/_types/_va_list.h /usr/include/sys/stdio.h \
   /usr/include/sys/_types/_off_t.h /usr/include/sys/_types/_ssize_t.h \
   /usr/include/secure/_stdio.h /usr/include/secure/_common.h \
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/logmath.h \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdarg.h \
@@ -68,6 +74,32 @@ ps_alignment.lo: ps_alignment.c \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/listelem_alloc.h
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/ckd_alloc.h:
+=======
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/logmath.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/stdarg.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/bitvec.h \
+  /usr/include/string.h /usr/include/sys/_types/_rsize_t.h \
+  /usr/include/sys/_types/_errno_t.h /usr/include/strings.h \
+  /usr/include/secure/_string.h s3types.h \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/float.h \
+  /usr/include/assert.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h bin_mdef.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/mmio.h \
+  ../../include/pocketsphinx_export.h mdef.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/hash_table.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/glist.h \
+  dict.h hmm.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/fixpoint.h \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/listelem_alloc.h
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/ckd_alloc.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 
 /usr/include/stdlib.h:
 
@@ -109,33 +141,7 @@ ps_alignment.lo: ps_alignment.c \
 
 /usr/include/i386/_mcontext.h:
 
-/usr/include/mach/machine/_structs.h:
-
 /usr/include/mach/i386/_structs.h:
-
-/usr/include/machine/types.h:
-
-/usr/include/i386/types.h:
-
-/usr/include/sys/_types/_int8_t.h:
-
-/usr/include/sys/_types/_int16_t.h:
-
-/usr/include/sys/_types/_int32_t.h:
-
-/usr/include/sys/_types/_int64_t.h:
-
-/usr/include/sys/_types/_u_int8_t.h:
-
-/usr/include/sys/_types/_u_int16_t.h:
-
-/usr/include/sys/_types/_u_int32_t.h:
-
-/usr/include/sys/_types/_u_int64_t.h:
-
-/usr/include/sys/_types/_intptr_t.h:
-
-/usr/include/sys/_types/_uintptr_t.h:
 
 /usr/include/sys/_pthread/_pthread_attr_t.h:
 
@@ -151,9 +157,17 @@ ps_alignment.lo: ps_alignment.c \
 
 /usr/include/sys/resource.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdint.h:
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/stdint.h:
 
 /usr/include/stdint.h:
+
+/usr/include/sys/_types/_int8_t.h:
+
+/usr/include/sys/_types/_int16_t.h:
+
+/usr/include/sys/_types/_int32_t.h:
+
+/usr/include/sys/_types/_int64_t.h:
 
 /usr/include/_types/_uint8_t.h:
 
@@ -162,6 +176,10 @@ ps_alignment.lo: ps_alignment.c \
 /usr/include/_types/_uint32_t.h:
 
 /usr/include/_types/_uint64_t.h:
+
+/usr/include/sys/_types/_intptr_t.h:
+
+/usr/include/sys/_types/_uintptr_t.h:
 
 /usr/include/_types/_intmax_t.h:
 
@@ -189,17 +207,29 @@ ps_alignment.lo: ps_alignment.c \
 
 /usr/include/sys/_types/_null.h:
 
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
 /usr/include/sys/_types/_dev_t.h:
 
 /usr/include/sys/_types/_mode_t.h:
 
 /usr/include/setjmp.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinx_config.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinx_config.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 
 ps_alignment.h:
 
@@ -219,13 +249,23 @@ dict2pid.h:
 
 /usr/include/secure/_common.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/logmath.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/logmath.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdarg.h:
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/stdarg.h:
+
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/bitvec.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/bitvec.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 
 /usr/include/string.h:
 
@@ -235,19 +275,19 @@ dict2pid.h:
 
 /usr/include/strings.h:
 
-/usr/include/secure/_strings.h:
-
 /usr/include/secure/_string.h:
 
 s3types.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/float.h:
-
-/usr/include/float.h:
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/float.h:
 
 /usr/include/assert.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/err.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/err.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 
 /usr/include/errno.h:
 
@@ -255,23 +295,37 @@ s3types.h:
 
 bin_mdef.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/mmio.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/mmio.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 
 ../../include/pocketsphinx_export.h:
 
 mdef.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/hash_table.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/glist.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/hash_table.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/glist.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 
 dict.h:
 
 hmm.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/fixpoint.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/fixpoint.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 
-/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/limits.h:
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/limits.h:
 
 /usr/include/limits.h:
 
@@ -283,4 +337,8 @@ hmm.h:
 
 /usr/include/sys/syslimits.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/listelem_alloc.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/listelem_alloc.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/ps_alignment.Plo

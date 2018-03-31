@@ -5,6 +5,7 @@ dict.lo: dict.c /usr/include/string.h /usr/include/_types.h \
   /usr/include/i386/_types.h /usr/include/sys/_pthread/_pthread_types.h \
   /usr/include/Availability.h /usr/include/AvailabilityInternal.h \
   /usr/include/sys/_types/_size_t.h /usr/include/sys/_types/_null.h \
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
   /usr/include/sys/_types/_rsize_t.h /usr/include/machine/types.h \
   /usr/include/i386/types.h /usr/include/sys/_types/_int8_t.h \
   /usr/include/sys/_types/_int16_t.h /usr/include/sys/_types/_int32_t.h \
@@ -18,6 +19,12 @@ dict.lo: dict.c /usr/include/string.h /usr/include/_types.h \
   /usr/include/strings.h /usr/include/secure/_strings.h \
   /usr/include/secure/_common.h /usr/include/secure/_string.h \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/pio.h \
+=======
+  /usr/include/sys/_types/_rsize_t.h /usr/include/sys/_types/_errno_t.h \
+  /usr/include/sys/_types/_ssize_t.h /usr/include/strings.h \
+  /usr/include/secure/_string.h /usr/include/secure/_common.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/pio.h \
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
   /usr/include/stdio.h /usr/include/sys/_types/_va_list.h \
   /usr/include/sys/stdio.h /usr/include/sys/_types/_off_t.h \
   /usr/include/secure/_stdio.h /usr/include/sys/stat.h \
@@ -29,6 +36,7 @@ dict.lo: dict.c /usr/include/string.h /usr/include/_types.h \
   /usr/include/sys/_types/_uid_t.h /usr/include/sys/_types/_gid_t.h \
   /usr/include/sys/_types/_time_t.h /usr/include/sys/_types/_s_ifmt.h \
   /usr/include/sys/_types/_filesec_t.h \
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinx_config.h \
@@ -37,25 +45,39 @@ dict.lo: dict.c /usr/include/string.h /usr/include/_types.h \
   dict.h \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/hash_table.h \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/glist.h \
+=======
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinx_config.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/strfuncs.h \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/stdarg.h \
+  dict.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/hash_table.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/glist.h \
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
   /usr/include/stdlib.h /usr/include/sys/wait.h \
   /usr/include/sys/_types/_pid_t.h /usr/include/sys/_types/_id_t.h \
   /usr/include/sys/signal.h /usr/include/sys/appleapiopts.h \
   /usr/include/machine/signal.h /usr/include/i386/signal.h \
   /usr/include/machine/_mcontext.h /usr/include/i386/_mcontext.h \
-  /usr/include/mach/machine/_structs.h /usr/include/mach/i386/_structs.h \
+  /usr/include/mach/i386/_structs.h \
   /usr/include/sys/_pthread/_pthread_attr_t.h \
   /usr/include/sys/_types/_sigaltstack.h \
   /usr/include/sys/_types/_ucontext.h \
   /usr/include/sys/_types/_sigset_t.h /usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdint.h \
-  /usr/include/stdint.h /usr/include/_types/_uint8_t.h \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/stdint.h \
+  /usr/include/stdint.h /usr/include/sys/_types/_int8_t.h \
+  /usr/include/sys/_types/_int16_t.h /usr/include/sys/_types/_int32_t.h \
+  /usr/include/sys/_types/_int64_t.h /usr/include/_types/_uint8_t.h \
   /usr/include/_types/_uint16_t.h /usr/include/_types/_uint32_t.h \
-  /usr/include/_types/_uint64_t.h /usr/include/_types/_intmax_t.h \
+  /usr/include/_types/_uint64_t.h /usr/include/sys/_types/_intptr_t.h \
+  /usr/include/sys/_types/_uintptr_t.h /usr/include/_types/_intmax_t.h \
   /usr/include/_types/_uintmax_t.h /usr/include/sys/_types/_timeval.h \
   /usr/include/machine/endian.h /usr/include/i386/endian.h \
   /usr/include/sys/_endian.h /usr/include/libkern/_OSByteOrder.h \
   /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
   /usr/include/sys/_types/_ct_rune_t.h /usr/include/sys/_types/_rune_t.h \
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
   /usr/include/sys/_types/_wchar_t.h s3types.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/float.h \
   /usr/include/float.h /usr/include/assert.h \
@@ -65,6 +87,18 @@ dict.lo: dict.c /usr/include/string.h /usr/include/_types.h \
   /usr/include/setjmp.h bin_mdef.h \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/mmio.h \
   /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h \
+=======
+  /usr/include/sys/_types/_wchar_t.h /usr/include/machine/types.h \
+  /usr/include/i386/types.h s3types.h \
+  /Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/float.h \
+  /usr/include/assert.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/err.h \
+  /usr/include/errno.h /usr/include/sys/errno.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/ckd_alloc.h \
+  /usr/include/setjmp.h bin_mdef.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/mmio.h \
+  /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h \
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
   ../../include/pocketsphinx_export.h mdef.h
 
 /usr/include/string.h:
@@ -95,43 +129,23 @@ dict.lo: dict.c /usr/include/string.h /usr/include/_types.h \
 
 /usr/include/sys/_types/_rsize_t.h:
 
-/usr/include/machine/types.h:
-
-/usr/include/i386/types.h:
-
-/usr/include/sys/_types/_int8_t.h:
-
-/usr/include/sys/_types/_int16_t.h:
-
-/usr/include/sys/_types/_int32_t.h:
-
-/usr/include/sys/_types/_int64_t.h:
-
-/usr/include/sys/_types/_u_int8_t.h:
-
-/usr/include/sys/_types/_u_int16_t.h:
-
-/usr/include/sys/_types/_u_int32_t.h:
-
-/usr/include/sys/_types/_u_int64_t.h:
-
-/usr/include/sys/_types/_intptr_t.h:
-
-/usr/include/sys/_types/_uintptr_t.h:
-
 /usr/include/sys/_types/_errno_t.h:
 
 /usr/include/sys/_types/_ssize_t.h:
 
 /usr/include/strings.h:
 
-/usr/include/secure/_strings.h:
+/usr/include/secure/_string.h:
 
 /usr/include/secure/_common.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
 /usr/include/secure/_string.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/pio.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/pio.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
 
 /usr/include/stdio.h:
 
@@ -171,6 +185,7 @@ dict.lo: dict.c /usr/include/string.h /usr/include/_types.h \
 
 /usr/include/sys/_types/_filesec_t.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h:
@@ -178,14 +193,29 @@ dict.lo: dict.c /usr/include/string.h /usr/include/_types.h \
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinx_config.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/strfuncs.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/sphinxbase_export.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdarg.h:
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/prim_type.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinx_config.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/strfuncs.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
+
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/stdarg.h:
 
 dict.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/hash_table.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/glist.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/hash_table.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/glist.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
 
 /usr/include/stdlib.h:
 
@@ -207,8 +237,6 @@ dict.h:
 
 /usr/include/i386/_mcontext.h:
 
-/usr/include/mach/machine/_structs.h:
-
 /usr/include/mach/i386/_structs.h:
 
 /usr/include/sys/_pthread/_pthread_attr_t.h:
@@ -221,9 +249,17 @@ dict.h:
 
 /usr/include/sys/resource.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdint.h:
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/stdint.h:
 
 /usr/include/stdint.h:
+
+/usr/include/sys/_types/_int8_t.h:
+
+/usr/include/sys/_types/_int16_t.h:
+
+/usr/include/sys/_types/_int32_t.h:
+
+/usr/include/sys/_types/_int64_t.h:
 
 /usr/include/_types/_uint8_t.h:
 
@@ -232,6 +268,10 @@ dict.h:
 /usr/include/_types/_uint32_t.h:
 
 /usr/include/_types/_uint64_t.h:
+
+/usr/include/sys/_types/_intptr_t.h:
+
+/usr/include/sys/_types/_uintptr_t.h:
 
 /usr/include/_types/_intmax_t.h:
 
@@ -257,29 +297,45 @@ dict.h:
 
 /usr/include/sys/_types/_wchar_t.h:
 
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
 s3types.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/float.h:
-
-/usr/include/float.h:
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include/float.h:
 
 /usr/include/assert.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/err.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/err.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
 
 /usr/include/errno.h:
 
 /usr/include/sys/errno.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/ckd_alloc.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/ckd_alloc.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
 
 /usr/include/setjmp.h:
 
 bin_mdef.h:
 
+<<<<<<< HEAD:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/mmio.h:
 
 /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h:
+=======
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/mmio.h:
+
+/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase/cmd_ln.h:
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/src/libpocketsphinx/.deps/dict.Plo
 
 ../../include/pocketsphinx_export.h:
 

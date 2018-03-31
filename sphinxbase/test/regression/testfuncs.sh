@@ -1,7 +1,11 @@
 # Utility functions and parameters for regression tests
 
 # Predefined directories you may need
+<<<<<<< HEAD:sphinxbase/test/regression/testfuncs.sh
 # Stupid broken RedHat autoconf doesn't do /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase
+=======
+# Stupid broken RedHat autoconf doesn't do /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:sphinxbase/test/regression/testfuncs.sh
 builddir="../.."
 sourcedir="../.."
 tests=$sourcedir/test

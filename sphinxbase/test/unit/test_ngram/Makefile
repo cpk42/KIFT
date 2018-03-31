@@ -76,8 +76,8 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-build_triplet = x86_64-apple-darwin17.4.0
-host_triplet = x86_64-apple-darwin17.4.0
+build_triplet = x86_64-apple-darwin15.6.0
+host_triplet = x86_64-apple-darwin15.6.0
 check_PROGRAMS = test_lm_read$(EXEEXT) test_lm_score$(EXEEXT) \
 	test_lm_add$(EXEEXT) test_lm_casefold$(EXEEXT) \
 	test_lm_class$(EXEEXT) test_lm_set$(EXEEXT) \
@@ -406,6 +406,7 @@ TEST_LOG_DRIVER = $(SHELL) $(top_srcdir)/test-driver
 TEST_LOG_COMPILE = $(TEST_LOG_COMPILER) $(AM_TEST_LOG_FLAGS) \
 	$(TEST_LOG_FLAGS)
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
+<<<<<<< HEAD:sphinxbase/test/unit/test_ngram/Makefile
 ACLOCAL = ${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/missing aclocal-1.13
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
@@ -413,6 +414,15 @@ AR = ar
 AUTOCONF = ${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/missing autoconf
 AUTOHEADER = ${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/missing autoheader
 AUTOMAKE = ${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/missing automake-1.13
+=======
+ACLOCAL = ${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/missing aclocal-1.13
+AMTAR = $${TAR-tar}
+AM_DEFAULT_VERBOSITY = 1
+AR = ar
+AUTOCONF = ${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/missing autoconf
+AUTOHEADER = ${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/missing autoheader
+AUTOMAKE = ${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/missing automake-1.13
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:sphinxbase/test/unit/test_ngram/Makefile
 AWK = awk
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -446,12 +456,16 @@ LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIPO = lipo
 LN_S = ln -s
 LTLIBOBJS = 
+<<<<<<< HEAD:sphinxbase/test/unit/test_ngram/Makefile
 MAKEINFO = ${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/missing makeinfo
+=======
+MAKEINFO = ${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/missing makeinfo
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:sphinxbase/test/unit/test_ngram/Makefile
 MANIFEST_TOOL = :
 MKDIR_P = ../../.././install-sh -c -d
 NM = /usr/bin/nm -B
 NMEDIT = nmedit
-OBJDUMP = objdump
+OBJDUMP = false
 OBJEXT = o
 OTOOL = otool
 OTOOL64 = :
@@ -478,14 +492,21 @@ SED = /usr/bin/sed
 SET_MAKE = 
 SHELL = /bin/sh
 STRIP = strip
-SWIG = /nfs/2017/c/ckrommen/.brew/bin/swig
-SWIG_LIB = /nfs/2017/c/ckrommen/.brew/Cellar/swig/3.0.12/share/swig/3.0.12
+SWIG = /Users/curtiskrommenhoek/.brew/bin/swig
+SWIG_LIB = /Users/curtiskrommenhoek/.brew/Cellar/swig/3.0.12/share/swig/3.0.12
 VERSION = 5prealpha
 YACC = bison -y
+<<<<<<< HEAD:sphinxbase/test/unit/test_ngram/Makefile
 abs_builddir = /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/test/unit/test_ngram
 abs_srcdir = /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/test/unit/test_ngram
 abs_top_builddir = /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase
 abs_top_srcdir = /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase
+=======
+abs_builddir = /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/test/unit/test_ngram
+abs_srcdir = /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/test/unit/test_ngram
+abs_top_builddir = /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase
+abs_top_srcdir = /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:sphinxbase/test/unit/test_ngram/Makefile
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_DUMPBIN = 
@@ -498,10 +519,10 @@ am__quote =
 am__tar = $${TAR-tar} chof - "$$tardir"
 am__untar = $${TAR-tar} xf -
 bindir = ${exec_prefix}/bin
-build = x86_64-apple-darwin17.4.0
+build = x86_64-apple-darwin15.6.0
 build_alias = 
 build_cpu = x86_64
-build_os = darwin17.4.0
+build_os = darwin15.6.0
 build_vendor = apple
 builddir = .
 datadir = ${datarootdir}
@@ -509,15 +530,19 @@ datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-host = x86_64-apple-darwin17.4.0
+host = x86_64-apple-darwin15.6.0
 host_alias = 
 host_cpu = x86_64
-host_os = darwin17.4.0
+host_os = darwin15.6.0
 host_vendor = apple
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
+<<<<<<< HEAD:sphinxbase/test/unit/test_ngram/Makefile
 install_sh = ${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/install-sh
+=======
+install_sh = ${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/install-sh
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:sphinxbase/test/unit/test_ngram/Makefile
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale

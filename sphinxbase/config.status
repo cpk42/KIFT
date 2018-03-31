@@ -437,7 +437,11 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
+<<<<<<< HEAD:sphinxbase/config.status
 ac_pwd='/nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase'
+=======
+ac_pwd='/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase'
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:sphinxbase/config.status
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='./install-sh -c -d'
@@ -559,11 +563,11 @@ SHELL='/bin/sh'
 ECHO='printf %s\n'
 PATH_SEPARATOR=':'
 host_alias=''
-host='x86_64-apple-darwin17.4.0'
-host_os='darwin17.4.0'
+host='x86_64-apple-darwin15.6.0'
+host_os='darwin15.6.0'
 build_alias=''
-build='x86_64-apple-darwin17.4.0'
-build_os='darwin17.4.0'
+build='x86_64-apple-darwin15.6.0'
+build_os='darwin15.6.0'
 SED='/usr/bin/sed'
 Xsed='/usr/bin/sed -e 1s/^X//'
 GREP='/usr/bin/grep'
@@ -582,7 +586,11 @@ lt_cv_to_host_file_cmd='func_convert_file_noop'
 lt_cv_to_tool_file_cmd='func_convert_file_noop'
 reload_flag=' -r'
 reload_cmds='$LTCC $LTCFLAGS -nostdlib ${wl}-r -o $output$reload_objs'
+<<<<<<< HEAD:sphinxbase/config.status
 OBJDUMP='objdump'
+=======
+OBJDUMP='false'
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:sphinxbase/config.status
 deplibs_check_method='pass_all'
 file_magic_cmd='$MAGIC_CMD'
 file_magic_glob=''
@@ -671,7 +679,11 @@ postuninstall_cmds=''
 finish_cmds=''
 finish_eval=''
 hardcode_into_libs='no'
+<<<<<<< HEAD:sphinxbase/config.status
 sys_lib_search_path_spec='/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0  /usr/local/lib'
+=======
+sys_lib_search_path_spec='/Library/Developer/CommandLineTools/usr/lib/clang/8.0.0  /usr/local/lib'
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:sphinxbase/config.status
 sys_lib_dlsearch_path_spec='/usr/local/lib /lib /usr/lib'
 hardcode_action='immediate'
 enable_dlopen='unknown'
@@ -856,8 +868,8 @@ S["LTLIBOBJS"]=""
 S["LIBOBJS"]=""
 S["BUILD_SWIG_FALSE"]="#"
 S["BUILD_SWIG_TRUE"]=""
-S["SWIG_LIB"]="/nfs/2017/c/ckrommen/.brew/Cellar/swig/3.0.12/share/swig/3.0.12"
-S["SWIG"]="/nfs/2017/c/ckrommen/.brew/bin/swig"
+S["SWIG_LIB"]="/Users/curtiskrommenhoek/.brew/Cellar/swig/3.0.12/share/swig/3.0.12"
+S["SWIG"]="/Users/curtiskrommenhoek/.brew/bin/swig"
 S["PYTHON_EXTRA_LDFLAGS"]="-u _PyMac_Error /System/Library/Frameworks/Python.framework/Versions/2.7/Python"
 S["PYTHON_EXTRA_LIBS"]="-ldl  -framework CoreFoundation "
 S["PYTHON_SITE_PKG"]="/Library/Python/2.7/site-packages"
@@ -898,7 +910,7 @@ S["RANLIB"]="ranlib"
 S["ac_ct_AR"]="ar"
 S["AR"]="ar"
 S["DLLTOOL"]="false"
-S["OBJDUMP"]="objdump"
+S["OBJDUMP"]="false"
 S["LN_S"]="ln -s"
 S["NM"]="/usr/bin/nm -B"
 S["ac_ct_DUMPBIN"]=""
@@ -926,14 +938,14 @@ S["CPPFLAGS"]=""
 S["LDFLAGS"]=""
 S["CFLAGS"]="-g -O2 -Wall"
 S["CC"]="gcc"
-S["host_os"]="darwin17.4.0"
+S["host_os"]="darwin15.6.0"
 S["host_vendor"]="apple"
 S["host_cpu"]="x86_64"
-S["host"]="x86_64-apple-darwin17.4.0"
-S["build_os"]="darwin17.4.0"
+S["host"]="x86_64-apple-darwin15.6.0"
+S["build_os"]="darwin15.6.0"
 S["build_vendor"]="apple"
 S["build_cpu"]="x86_64"
-S["build"]="x86_64-apple-darwin17.4.0"
+S["build"]="x86_64-apple-darwin15.6.0"
 S["AM_BACKSLASH"]="\\"
 S["AM_DEFAULT_VERBOSITY"]="1"
 S["AM_DEFAULT_V"]="$(AM_DEFAULT_VERBOSITY)"
@@ -948,12 +960,21 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="./install-sh -c -d"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
+<<<<<<< HEAD:sphinxbase/config.status
 S["install_sh"]="${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/install-sh"
 S["MAKEINFO"]="${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/missing makeinfo"
 S["AUTOHEADER"]="${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/missing autoheader"
 S["AUTOMAKE"]="${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/missing automake-1.13"
 S["AUTOCONF"]="${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/missing autoconf"
 S["ACLOCAL"]="${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/sphinxbase/missing aclocal-1.13"
+=======
+S["install_sh"]="${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/install-sh"
+S["MAKEINFO"]="${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/missing makeinfo"
+S["AUTOHEADER"]="${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/missing autoheader"
+S["AUTOMAKE"]="${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/missing automake-1.13"
+S["AUTOCONF"]="${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/missing autoconf"
+S["ACLOCAL"]="${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/sphinxbase/missing aclocal-1.13"
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:sphinxbase/config.status
 S["VERSION"]="5prealpha"
 S["PACKAGE"]="sphinxbase"
 S["CYGPATH_W"]="echo"

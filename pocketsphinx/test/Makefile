@@ -75,8 +75,8 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-build_triplet = x86_64-apple-darwin17.4.0
-host_triplet = x86_64-apple-darwin17.4.0
+build_triplet = x86_64-apple-darwin15.6.0
+host_triplet = x86_64-apple-darwin15.6.0
 subdir = test
 DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(srcdir)/testfuncs.sh.in
@@ -174,6 +174,7 @@ am__relativize = \
     dir1=`echo "$$dir1" | sed -e "$$sed_rest"`; \
   done; \
   reldir="$$dir2"
+<<<<<<< HEAD:pocketsphinx/test/Makefile
 ACLOCAL = ${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/missing aclocal-1.13
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
@@ -181,12 +182,25 @@ AR = ar
 AUTOCONF = ${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/missing autoconf
 AUTOHEADER = ${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/missing autoheader
 AUTOMAKE = ${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/missing automake-1.13
+=======
+ACLOCAL = ${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/missing aclocal-1.13
+AMTAR = $${TAR-tar}
+AM_DEFAULT_VERBOSITY = 1
+AR = ar
+AUTOCONF = ${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/missing autoconf
+AUTOHEADER = ${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/missing autoheader
+AUTOMAKE = ${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/missing automake-1.13
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/test/Makefile
 AWK = awk
 CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -g -O2 -Wall
 CPP = gcc -E
+<<<<<<< HEAD:pocketsphinx/test/Makefile
 CPPFLAGS =  -I/nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include -I/nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase
+=======
+CPPFLAGS =  -I/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include -I/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/include/sphinxbase
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/test/Makefile
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -214,19 +228,27 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LD = /Library/Developer/CommandLineTools/usr/bin/ld
+<<<<<<< HEAD:pocketsphinx/test/Makefile
 LDFLAGS =  -L/nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/lib -L/nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/src/libsphinxad -L/nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/src/libsphinxbase
+=======
+LDFLAGS =  -L/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/lib -L/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/src/libsphinxad -L/Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/src/libsphinxbase
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/test/Makefile
 LIBOBJS = 
 LIBS =  -lsphinxbase
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIPO = lipo
 LN_S = ln -s
 LTLIBOBJS = 
+<<<<<<< HEAD:pocketsphinx/test/Makefile
 MAKEINFO = ${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/missing makeinfo
+=======
+MAKEINFO = ${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/missing makeinfo
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/test/Makefile
 MANIFEST_TOOL = :
 MKDIR_P = .././install-sh -c -d
 NM = /usr/bin/nm -B
 NMEDIT = nmedit
-OBJDUMP = objdump
+OBJDUMP = false
 OBJEXT = o
 OTOOL = otool
 OTOOL64 = :
@@ -238,7 +260,7 @@ PACKAGE_TARNAME = pocketsphinx
 PACKAGE_URL = 
 PACKAGE_VERSION = 5prealpha
 PATH_SEPARATOR = :
-PKG_CONFIG = /nfs/2017/c/ckrommen/.brew/bin/pkg-config
+PKG_CONFIG = /Users/curtiskrommenhoek/.brew/bin/pkg-config
 PYTHON = /usr/bin/python
 PYTHON_CPPFLAGS = -I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7
 PYTHON_EXEC_PREFIX = ${exec_prefix}
@@ -255,15 +277,26 @@ SET_MAKE =
 SHELL = /bin/sh
 SPHINXBASE_CFLAGS = 
 SPHINXBASE_LIBS = 
+<<<<<<< HEAD:pocketsphinx/test/Makefile
 SPHINXBASE_SWIG = /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/../sphinxbase/swig
+=======
+SPHINXBASE_SWIG = /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/../sphinxbase/swig
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/test/Makefile
 STRIP = strip
-SWIG = /nfs/2017/c/ckrommen/.brew/bin/swig
-SWIG_LIB = /nfs/2017/c/ckrommen/.brew/Cellar/swig/3.0.12/share/swig/3.0.12
+SWIG = /Users/curtiskrommenhoek/.brew/bin/swig
+SWIG_LIB = /Users/curtiskrommenhoek/.brew/Cellar/swig/3.0.12/share/swig/3.0.12
 VERSION = 5prealpha
+<<<<<<< HEAD:pocketsphinx/test/Makefile
 abs_builddir = /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/test
 abs_srcdir = /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/test
 abs_top_builddir = /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx
 abs_top_srcdir = /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx
+=======
+abs_builddir = /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/test
+abs_srcdir = /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/test
+abs_top_builddir = /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx
+abs_top_srcdir = /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/test/Makefile
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_DUMPBIN = 
@@ -273,10 +306,10 @@ am__quote =
 am__tar = $${TAR-tar} chof - "$$tardir"
 am__untar = $${TAR-tar} xf -
 bindir = ${exec_prefix}/bin
-build = x86_64-apple-darwin17.4.0
+build = x86_64-apple-darwin15.6.0
 build_alias = 
 build_cpu = x86_64
-build_os = darwin17.4.0
+build_os = darwin15.6.0
 build_vendor = apple
 builddir = .
 datadir = ${datarootdir}
@@ -284,15 +317,19 @@ datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-host = x86_64-apple-darwin17.4.0
+host = x86_64-apple-darwin15.6.0
 host_alias = 
 host_cpu = x86_64
-host_os = darwin17.4.0
+host_os = darwin15.6.0
 host_vendor = apple
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
+<<<<<<< HEAD:pocketsphinx/test/Makefile
 install_sh = ${SHELL} /nfs/2017/c/ckrommen/Desktop/42-cadet/KIFT/pocketsphinx/install-sh
+=======
+install_sh = ${SHELL} /Users/curtiskrommenhoek/Desktop/42-Cadets/KIFT/pocketsphinx/install-sh
+>>>>>>> 153d6af012c6a773771088ee477ea675c672ab9d:pocketsphinx/test/Makefile
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
