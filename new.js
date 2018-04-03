@@ -1,26 +1,45 @@
 var fs = require('fs');
+var config = require("./config.js")
 
-function fetchResponse(myData, arg) {
-    var user = arg.toLowerCase().split(' ')
-    var search;
-
-    var regex1 = RegExp('foo*','g');
-    console.log(regex1)
-    for (i = 0; i < user.length; i++){
-         search = new RegExp(user[i].toLowerCase() + "*/")
-
-        console.log(search.exec("hey"))
-         console.log(search)
-    }
-    var expr = "";
+function Aural(name, schema, voice){
+    this.name = name
+    this.schema = schema
+    this.voice = voice
 }
 
-function main(){
-    var file = fs.readFileSync('kift.json', 'utf8');
-    var myData = JSON.parse(file)
-    var arg = "hey kift"
+function Entry()
 
-    fetchResponse(myData, arg)
+function printAural(schema) {
+  console.log(schema.name)
+  console.log(schema.schema)
+  console.log(schema.voice)
+}
+
+
+function writeToFile(str){
+  fs.writeFile(config.file, str, (err) => {
+    if (err)
+        throw error
+    else {
+      console.log('logged!')
+    }
+  })
+}
+
+function addEntry()
+
+function main(){
+    var file = fs.readFileSync(config.file, config.encoding);
+
+    if (file)
+      writeToFile(file.substring(0, file.length-2) + ',\n\t' + JSON.stringify(config.schema) + '\n]', file)
+    else {
+      writeToFile('[\n\t' + JSON.stringify(config.schema) + '\n]', file)
+    }
+    var db = new Aural(config.name, config.schema, config.voice)
+    //printAural(db)
+    // fetchResponse(myData, arg)
+    //    var myData = JSON.parse(file)
 }
 
 main();
@@ -28,7 +47,20 @@ main();
 
 
 
-
+// function fetchResponse(myData, arg) {
+//     var user = arg.toLowerCase().split(' ')
+//     var search;
+//
+//     var regex1 = RegExp('foo*','g');
+//     console.log(regex1)
+//     for (i = 0; i < user.length; i++){
+//          search = new RegExp(user[i].toLowerCase() + "*/")
+//
+//         console.log(search.exec("hey"))
+//          console.log(search)
+//     }
+//     var expr = "";
+// }
 
 
 /*
