@@ -7,8 +7,6 @@ function Aural(name, schema, voice){
     this.voice = voice
 }
 
-function Entry()
-
 function printAural(schema) {
   console.log(schema.name)
   console.log(schema.schema)
@@ -26,16 +24,41 @@ function writeToFile(str){
   })
 }
 
-function addEntry()
+function addEntry(file){
+  if (file)
+    writeToFile(file.substring(0, file.length-2) + ',\n\t' + JSON.stringify(config.schema) + '\n]', file)
+  else {
+    writeToFile('[\n\t' + JSON.stringify(config.schema) + '\n]', file)
+  }
+}
+
+
+// function findLastEntry(findLast,findFirst){
+//   for (i = file.length; i > 0; i--) {
+//     if (file[i] == '}') {
+//       findLast = i
+//     }
+//     else if (file[i] == '{') {
+//       findFirst = i
+//       break
+//     }
+//   }
+//   return i
+// }
+// function removeEntry(file){
+//   var findLast;
+//   var findFirst;
+//
+//   findLastEntry(findLast, findFirst)
+//   console.log(findLast + ' ' + findFirst)
+//   //if (file)
+//   //  writeToFile()
+// }
 
 function main(){
     var file = fs.readFileSync(config.file, config.encoding);
+    addEntry(file)
 
-    if (file)
-      writeToFile(file.substring(0, file.length-2) + ',\n\t' + JSON.stringify(config.schema) + '\n]', file)
-    else {
-      writeToFile('[\n\t' + JSON.stringify(config.schema) + '\n]', file)
-    }
     var db = new Aural(config.name, config.schema, config.voice)
     //printAural(db)
     // fetchResponse(myData, arg)

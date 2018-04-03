@@ -1,5 +1,3 @@
 [
-	{"user":"","voice":"","phrase":"","response":""},
-	{"user":"","voice":"","phrase":"","response":""},
-	{"user":"","voice":"","phrase":"","response":""}
+	{"name":"newdb","file":"db.json","schema":{"user":"","voice":"","phrase":"","response":"","profile":"","username":""},"voice":"sam","entries":1,"needsUpdate":false,"encoding":"utf-8"}
 ]

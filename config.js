@@ -7,9 +7,12 @@ module.exports =
       "user": "",
       "voice": "",
       "phrase": "",
-      "response": ""
+      "response": "",
+      "profile": "",
+      "username": ""
     },
   "voice": "sam",
+  "numEntries": 0,
   "entries": [],
   "needsUpdate": false,
   "encoding": "utf-8"
