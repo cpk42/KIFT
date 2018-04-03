@@ -14,6 +14,6 @@ module.exports =
   "voice": "sam",
   "numEntries": 0,
   "entries": [],
-  "needsUpdate": false,
+  "configPresent": false,
   "encoding": "utf-8"
 }
