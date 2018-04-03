@@ -1,16 +1,26 @@
 var fs = require('fs');
 
+function fetchResponse(myData, arg) {
+    var user = arg.toLowerCase().split(' ')
+    var search;
+
+    var regex1 = RegExp('foo*','g');
+    console.log(regex1)
+    for (i = 0; i < user.length; i++){
+         search = new RegExp(user[i].toLowerCase() + "*/")
+
+        console.log(search.exec("hey"))
+         console.log(search)
+    }
+    var expr = "";
+}
+
 function main(){
     var file = fs.readFileSync('kift.json', 'utf8');
     var myData = JSON.parse(file)
-    var arg = "Whats the"
-    var user = arg.toLowerCase().split(' ')
-    var wordCount = arg.split(' ').length
-    count = 0
+    var arg = "hey kift"
 
-    for (i = 0; i < myData.length; i++){
-        
-    }
+    fetchResponse(myData, arg)
 }
 
 main();
@@ -21,7 +31,12 @@ main();
 
 
 
-
+/*
+        for (i = 0; i < myData.length; i++){
+            if (myData[i].phrase == arg.toLowerCase())
+                console.log(myData[i].response)
+        }
+        */
 
 
 
