@@ -18,12 +18,12 @@ class Aural {
     })
   }
 
-  popEntry() {
+  removeEntry(index) {
     var file = fs.readFileSync(this.config.file, this.config.encoding)
     if (file) {
       var entries = JSON.parse(file)
       if (entries.numEntries > 0){
-        entries.entries.pop()
+        entries.entries.splice(index, 1)
         entries.numEntries -= 1
         this.writeToFile(JSON.stringify(entries))
         console.log('Removed entry from ' + this.config.name + '!')
@@ -55,7 +55,6 @@ class Aural {
 
   addEntry() {
     var file = fs.readFileSync(this.config.file, this.config.encoding)
-
     if (file) {
       var entries = JSON.parse(file)
       if (entries.configPresent) {
@@ -126,6 +125,17 @@ class Aural {
         console.log('There are ' + entry.numEntries + ' entries!')
     }
   }
+
+  listEntries() {
+    var file = fs.readFileSync(this.config.file, this.config.encoding)
+    var entry = JSON.parse(file)
+    if (file){
+      if (!entry.numEntries)
+        console.log('No Entries!')
+      else
+        console.log(entry.entries)
+    }
+  }
 }
 
 function main(){
@@ -134,8 +144,10 @@ function main(){
     "response": "",
     "voice": ""
   }
-  var db = new Aural(configure, "newdatabase", "new.json", schema)
-  //db.init()
+  var db = new Aural(configure, "newAural", "new.json", schema)
+
+  // db.removeEntry(0)
+  // db.init()
   // db.addEntry()
   // db.popEntry()
   // db.getEntry(1)
