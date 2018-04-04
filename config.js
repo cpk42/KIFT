@@ -1,17 +1,8 @@
 module.exports =
 {
-  "name": "newdb",
-  "file": "db.json",
-  "schema":
-    {
-      "user": "",
-      "voice": "",
-      "phrase": "",
-      "response": "",
-      "profile": "",
-      "username": ""
-    },
-  "voice": "sam",
+  "name": "",
+  "file": "",
+  "schema": {},
   "numEntries": 0,
   "entries": [],
   "configPresent": false,

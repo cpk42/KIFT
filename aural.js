@@ -1,139 +1,147 @@
 const fs = require('fs');
-const config = require("./config.js")
+const configure = require("./config.js")
 const readline = require('readline');
 const chalk = require('chalk')
 
-function Aural(name, schema, voice){
-    this.name = name
-    this.schema = schema
-    this.voice = voice
-}
-
-function printAural(schema) {
-  console.log(schema.name)
-  console.log(schema.schema)
-  console.log(schema.voice)
-}
-
-
-function writeToFile(str) {
-  fs.writeFile(config.file, str, (err) => {
-    if (err)
-        throw error
-    else {
-      console.log('logged!')
-    }
-  })
-}
-
-
-function removeEntry(config) {
-  var file = fs.readFileSync(config.file, config.encoding);
-
-  if (file) {
-    // console.log(file)
-    var entries = JSON.parse(file)
-    if (entries.numEntries > 0){
-      entries.entries.pop()
-      entries.numEntries -= 1
-      console.log(entries)
-      writeToFile(JSON.stringify(entries))
-    }
-    else {
-      console.log('No data to remove!')
-    }
+class Aural {
+  constructor(config, name, fileName, schema) {
+      this.config = Object.assign(configure)
+      this.config.name = name
+      this.config.file = fileName
+      this.config.schema = Object.assign(schema)
   }
-}
 
-function addEntry(config){
-  var file = fs.readFileSync(config.file, config.encoding);
+  writeToFile(str) {
+    fs.writeFile(this.config.file, str, (err) => {
+      if (err)
+          throw error
+    })
+  }
 
-  if (file) {
-    var entries = JSON.parse(file)
+  popEntry() {
+    var file = fs.readFileSync(this.config.file, this.config.encoding)
+    if (file) {
+      var entries = JSON.parse(file)
+      if (entries.numEntries > 0){
+        entries.entries.pop()
+        entries.numEntries -= 1
+        this.writeToFile(JSON.stringify(entries))
+        console.log('Removed entry from ' + this.config.name + '!')
+      }
+      else {
+        console.log('No data to remove!')
+      }
+    }
     console.log(entries)
-    if (entries.configPresent) {
-      entries.numEntries += 1
-      entries.entries.push(config.schema)
-      writeToFile(JSON.stringify(entries))
+  }
+
+  init() {
+    if (fs.existsSync(this.config.file)) {
+      if (!fs.readFileSync(this.config.file, this.config.encoding)){
+        console.log("File exists but is empty, Initializing config file.")
+        this.config.configPresent = true
+        this.writeToFile(JSON.stringify(this.config))
+      }
+      else
+        console.log("Database " + this.config.name + " already exists...")
+    }
+    else {
+      fs.closeSync(fs.openSync(this.config.file, 'w'));
+      var entry = this.config
+      entry.configPresent = true
+      this.writeToFile(JSON.stringify(entry))
     }
   }
-  else {
-      var entry = config
-      entry.configPresent = true
-      writeToFile(JSON.stringify(entry))
+
+  addEntry() {
+    var file = fs.readFileSync(this.config.file, this.config.encoding)
+
+    if (file) {
+      var entries = JSON.parse(file)
+      if (entries.configPresent) {
+          console.log('Added entry to ' + this.config.name + '!')
+          entries.numEntries += 1
+          entries.entries.push(this.config.schema)
+          this.writeToFile(JSON.stringify(entries))
+      }
+      else {
+        console.log("Database lacks config file!\nPlease run .init() to initialize database config!")
+      }
+    }
+    else
+      console.log("Database lacks config file!\nPlease run .init() to initialize database config!")
+  }
+
+  getEntry(i){
+    var file = fs.readFileSync(this.config.file, this.config.encoding)
+
+    if (file) {
+      var entries = JSON.parse(file)
+      if (entries.configPresent) {
+        if (entries.numEntries >= 1)
+          console.log(entries.entries[i])
+        else {
+          console.log('No Entries')
+        }
+      }
+    }
+    else {
+      console.log()
+    }
+  }
+
+  run(config) {
+    var temp = this
+    var rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout,
+      terminal: false
+    });
+    console.log('Initializing empty database...')
+    this.init()
+    console.log("Press\n'a' to add an entry\n'r' to remove an entry\n'q' or 'exit' to quit")
+    rl.on('line', function(line){
+      if (line == 'a')
+        temp.addEntry(config)
+      else if (line == 'r')
+        temp.popEntry(config)
+      else if (line == 'exit' || line == 'quit' || line == 'q')
+        process.exit(1)
+    })
+  }
+
+  clear() {
+    var file = fs.readFileSync(this.config.file, this.config.encoding)
+    this.writeToFile("")
+  }
+
+  numEntries() {
+    var file = fs.readFileSync(this.config.file, this.config.encoding)
+    var entry = JSON.parse(file)
+
+    if (file){
+      if (!entry.numEntries)
+        console.log('No Entries!')
+      else
+        console.log('There are ' + entry.numEntries + ' entries!')
+    }
   }
 }
 
-function readLine(){
-  var rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-    terminal: false
-  });
-  chalk.green(console.log("Press\n'a' to add an entry\n'r' to remove an entry\n'q' or 'exit' to quit"))
-  rl.on('line', function(line){
-    if (line == 'a')
-      addEntry(config)
-    else if (line == 'r')
-      removeEntry(config)
-    else if (line == 'exit' || line == 'quit' || line == 'q')
-      process.exit(1)
-  })
-}
 function main(){
+  var schema = {
+    "phrase": "",
+    "response": "",
+    "voice": ""
+  }
+  var db = new Aural(configure, "newdatabase", "new.json", schema)
+  //db.init()
+  // db.addEntry()
+  // db.popEntry()
+  // db.getEntry(1)
+  // db.clear()
+  // db.run()
+  // db.numEntries()
 
-    readLine()
-  //  var db = new Aural(config.name, config.schema, config.voice)
-    //printAural(db)
-    // fetchResponse(myData, arg)
-    //    var myData = JSON.parse(file)
 }
-
 main();
-
-
-
-
-// function fetchResponse(myData, arg) {
-//     var user = arg.toLowerCase().split(' ')
-//     var search;
-//
-//     var regex1 = RegExp('foo*','g');
-//     console.log(regex1)
-//     for (i = 0; i < user.length; i++){
-//          search = new RegExp(user[i].toLowerCase() + "*/")
-//
-//         console.log(search.exec("hey"))
-//          console.log(search)
-//     }
-//     var expr = "";
-// }
-
-
-/*
-        for (i = 0; i < myData.length; i++){
-            if (myData[i].phrase == arg.toLowerCase())
-                console.log(myData[i].response)
-        }
-        */
-
-
-
-// phrase = myData[i].phrase.split(' ')
-// for (x = 0; x < phrase.length; x++){
-//     if (phrase[x] = user[x])
-//         count++
-// }
-// if (count > (parseInt(wordCount * .75))) {
-//     console.log(myData[i].response)
-//     break
-// }
-// else {
-//     count = 0
-// }
-
-// console.log('phrase ' + phrase)
-// //console.log(myData[i].phrase + ' ' + arg.toLowerCase())
-// // if (arg.toLowerCase() == myData[i].phrase){
-// //     console.log(myData[i].response)
-// // }
