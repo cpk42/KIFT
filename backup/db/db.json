@@ -1,1 +1,1 @@
-{"name":"kiftdb","file":"./server/db/db.json","schema":{"phrase":"","response":"","file":""},"numEntries":2,"entries":[{"phrase":"whats the weather","response":"","file":""},{"phrase":"hey kift","response":"hello human","file":"hi.wav"}],"configPresent":true,"encoding":"utf-8"}
+{"name":"kiftdb","file":"./db/db.json","schema":{"phrase":"","response":"","file":""},"numEntries":2,"entries":[{"phrase":"whats the weather","response":"","file":""},{"phrase":"hey kift","response":"hello human","file":"hi.wav"}],"configPresent":true,"encoding":"utf-8"}
