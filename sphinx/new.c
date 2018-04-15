@@ -26,7 +26,7 @@ cmd_ln_t	*init_config()
 }
 
 
-void		find_utter(ps_decoder_t *ps, FILE *fh)
+void		find_utter(ps_decoder_t *ps, FILE *file)
 { 
   	int			rv;
  	size_t		nsamp;
@@ -35,9 +35,9 @@ void		find_utter(ps_decoder_t *ps, FILE *fh)
 	char const	*hyp;
 
 	rv = ps_start_utt(ps);
-	while (!feof(fh))
+	while (!feof(file))
 	{
-		nsamp = fread(buf, 2, 512, fh);
+		nsamp = fread(buf, 2, 512, file);
 		rv = ps_process_raw(ps, buf, nsamp, FALSE, FALSE);
 	}
 	rv = ps_end_utt(ps);
@@ -45,9 +45,9 @@ void		find_utter(ps_decoder_t *ps, FILE *fh)
 	printf("Recognized: %s\n", hyp);
 }
 
-int			handle_errors(FILE *fh, ps_decoder_t *ps, cmd_ln_t *config)
+int			handle_errors(FILE *file, ps_decoder_t *ps, cmd_ln_t *config)
 {
-  	if (fh == NULL)
+  	if (file == NULL)
 	{
 		printf("Not a valid file.\n");
 	 	return (0);
@@ -69,17 +69,17 @@ int main(int argc, char **argv)
 {
   	ps_decoder_t	*ps;
 	cmd_ln_t		*config;
-	FILE			*fh;
+	FILE			*file;
 	
 	if (argc == 2)
 	{
 		config = init_config();
 		ps = ps_init(config);
-		fh = fopen(argv[1], "rb");
-		if (!handle_errors(fh, ps, config))
+		file = fopen(argv[1], "rb");
+		if (!handle_errors(file, ps, config))
 			return (-1);
-		find_utter(ps, fh);
-		fclose(fh);
+		find_utter(ps, file);
+		fclose(file);
 		ps_free(ps);
 		cmd_ln_free_r(config);
 	}
